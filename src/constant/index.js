@@ -39,6 +39,49 @@ export const SKILLS = [
   "JavaScript", "Tailwind CSS", "Web Development", "Sequelize", "Linux/Ubuntu"
 ];
 
+export const PROJECTS = [
+  {
+    id: 1,
+    title: "Sistem Manajemen Logistik",
+    description: "Aplikasi web operasional yang dibangun khusus untuk departemen logistik PT Pegadaian. Dioptimalkan untuk efisiensi alur kerja harian bagi tim inti (1-4 pengguna). Fitur utama meliputi manajemen data barang, pemantauan status pengiriman, dan integrasi dengan sistem internal untuk memastikan data selalu akurat dan up-to-date.",
+    techStack: ["Next.js", "React", "Tailwind CSS", "Firebase"],
+    githubLink: "https://github.com/alziputra/logistik-app",
+    liveLink: "https://logistik-app-sigma.vercel.app/",
+    image: "https://github.com/alziputra/logistik-app/blob/main/public/dashboard.png?raw=true",
+    isFeatured: true, 
+  },
+  {
+    id: 2,
+    title: "Aplikasi Absensi",
+    description: "Sistem pencatatan kehadiran dengan antarmuka modern yang responsif. Dilengkapi dengan logika validasi khusus untuk memastikan pengguna hanya dapat melakukan absensi satu kali dalam sehari untuk mencegah duplikasi data.",
+    techStack: ["Next.js", "React", "Tailwind CSS"],
+    githubLink: "https://github.com/alziputra/absensi-app",
+    liveLink: "https://absensi-app-three.vercel.app/",
+    image: "https://github.com/alziputra/absensi-app/blob/main/public/screenshot2.jpeg?raw=true",
+    isFeatured: false,
+  },
+  {
+    id: 3,
+    title: "GreenWorldWare",
+    description: "Platform web untuk meningkatkan kesadaran masyarakat terhadap masalah lingkungan. Merupakan proyek akhir yang meraih TOP 8 Demo Day Skilvul.",
+    techStack: ["React.js", "Node.js", "Express", "Fullstack"],
+    githubLink: "https://github.com/Skilvul-FS13/FE-greenworldaware",
+    liveLink: "",
+    image: "",
+    isFeatured: false,
+  },
+  {
+    id: 4,
+    title: "Be_atlitkita (Backend System)",
+    description: "Sistem manajemen data atlet di sisi server. Berfokus pada pengelolaan relasi database, pembuatan data dummy (seeder), dan arsitektur RESTful API.",
+    techStack: ["Node.js", "MySQL", "Sequelize"],
+    githubLink: "https://github.com/alziputra",
+    image: "",
+    liveLink: "",
+    isFeatured: false,
+  }
+];
+
 export const REAL_ARTICLES = [
   { 
     id: 1, 
